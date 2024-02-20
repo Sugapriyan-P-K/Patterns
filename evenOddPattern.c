@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include "patternHeader.h"
 
 void drawPattern(int n) {
     int even = 2, odd = 1, row = 1, idx = 0;

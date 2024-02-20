@@ -1,6 +1,7 @@
-#include<stdio.h>
+#include "patternHeader.h"
 
-void drawPattern(int n) {
+void drawPattern() {
+    int n = getInput();
     int num = 1;
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
@@ -14,8 +15,5 @@ void drawPattern(int n) {
     }
 }
 int main(void) {
-    int n;
-    printf("Enter the number : ");
-    scanf("%d", &n);
-    drawPattern(n);
+    drawPattern();
 }
