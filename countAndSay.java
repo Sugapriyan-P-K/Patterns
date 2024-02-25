@@ -2,6 +2,7 @@ public class countAndSay {
     public static String CountAndSay(int n) {
         String s = "1";
         for (int i = 1; i < n; i++) {
+            // System.out.println(s); to get print from 1 -> n
             s = countIdx(s);
         }
         return s;
