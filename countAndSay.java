@@ -28,5 +28,6 @@ public class countAndSay {
 
     public static void main(String[] args) {
         System.out.println(CountAndSay(5));
+        // one of the leetcode problen -> https://leetcode.com/problems/count-and-say/
     }
 }
